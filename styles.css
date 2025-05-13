@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Gidole", 'Times New Roman', Times, serif; 
+}
+
+.gridGyatt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.logo{
+    text-align: left;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 20px;
+    grid-column: 1 / 6;
+    padding-bottom: 150px;
+}
+.logoChild{
+    padding-right: 40px;
+}
+.topBulletin{
+    text-align: center;
+    height: 10px;
+}
+
+.catalog{
+    height: 50px;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    grid-column: 1 / 6;
+}
+.categories{
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.titleBox{
+    grid-column: 2 / 5;
+}
+
+p{
+    grid-column: 2 / 5;
+    font-size: 21px;
+}
+
+.image{
+    text-align: center;
+    grid-column: 2 / 5;
+}
+
+.footer{
+    grid-column: 1 / 6;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 75px;
+    background-color: #32a852;
+}
+
+.relatedStories{
+    grid-column: 2 / 5;
+    display: flex;
+}
+
+.story1{
+    flex-basis: 33.3%;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.story2{
+    flex-basis: 33.3%;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.story3{
+    flex-basis: 33.3%;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 5px;
+}
